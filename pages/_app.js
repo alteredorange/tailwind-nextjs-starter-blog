@@ -1,7 +1,7 @@
 import '@/css/tailwind.css'
 
 import { MDXProvider } from '@mdx-js/react'
-import { ThemeProvider } from 'next-themes'
+import { ThemeProvider } from '@/lib/next-themes.tsx'
 import { DefaultSeo } from 'next-seo'
 import Head from 'next/head'
 
